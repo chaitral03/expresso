@@ -124,6 +124,9 @@ class cartSetup {
         let thankPage = new thankyouPage(page)
         await thankPage.ordercontinueBtn.first().click()
     }
+    async seller(page) {
+        return "Order confirmed from the user"
+    }
 }
 
 export default cartSetup
