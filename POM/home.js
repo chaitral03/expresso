@@ -8,7 +8,9 @@ class home {
         this.searchTB = page.locator('input#small-searchterms')
         this.searchBtn = page.locator('//input[@value="Search"]')
         this.userlink = page.locator("//a[text()='edith@gmail.com']")
-        
+        this.emailTF = page.locator('input#newsletter-email')
+        this.subscribeBtn = page.locator('input#newsletter-subscribe-button')
+        this.thankyouMsg = page.locator('div#newsletter-result-block')
     }
 }
 export default home
